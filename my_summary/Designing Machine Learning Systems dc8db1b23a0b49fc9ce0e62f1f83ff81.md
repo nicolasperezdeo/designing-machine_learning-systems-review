@@ -117,3 +117,40 @@ Four requirements are considered for ML systems:
 > 
 
 Understanding business contexts for ML engineers [article](https://eugeneyan.com/writing/project-quick-start/).
+
+Before we develop an ML system, we must understand why this system is needed. If the system is built for business, we need to translate business objectives into ML objectives. The key requirements for ML systems are:
+
+1. Reliability
+2. Scalability
+3. Maintainability
+4. Adaptability
+
+Before building, we need to frame the problem into a task that ML can solve.
+
+### Business and ML Objectives
+
+For an ML project to succeed within a business organization, it's crucial to tie the performance of an ML system to the overall business performance. Two examples illustrate this connection:
+
+1. Predicting ad click-through rate: An increase in accuracy results in increased ad revenue.
+2. Fraud detection: Every fraudulent transaction stopped results in money saved.
+
+To gain a definitive answer on how ML metrics influence business metrics, experiments are often needed. For example, A/B testing can be used to measure the impact of ML improvements on business outcomes.
+
+### Key Requirements for ML Systems
+
+**Reliability:** Correct functionality at the desired level of performance. This can be hard to detect and measure in ML systems.
+
+**Scalability:** As the system grows, it should be able to handle that growth in a reasonable way. An indispensable feature is autoscaling, which automatically adjusts the number of resources depending on usage.
+
+**Maintainability:** It's important to structure your models and set up your infrastructure in such a way that different contributors can work using tools they are comfortable with. Code should be documented, and code, data, and artifacts should be versioned.
+
+**Adaptability:** The system should be able to adapt to shifting data distributions and business requirements. It should have some capacity for both discovering aspects for performance improvement and allowing updates without service interruption.
+
+### 6 Steps in ML System Design
+
+1. Project objectives and constraints: Define stakeholders, resources, and goals.
+2. Data engineering: Collect, process, and prepare data for model development.
+3. Model development: Create, train, and evaluate ML models.
+4. Deployment: Implement the model in a production environment.
+5. Monitoring and continual learning: Track performance and update the model as needed.
+6. Business analysis: Evaluate the impact of the ML system on business metrics.
